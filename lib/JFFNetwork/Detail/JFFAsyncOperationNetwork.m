@@ -56,7 +56,7 @@
             JHttpError* httpError_ = [ [ JHttpError alloc ] initWithHttpCode: statusCode_ ];
             finish_( httpError_ );
 
-            [ weakSelf_ forceCancel ];
+            [ weakSelf_.connection cancel ];
         }
     };
 
