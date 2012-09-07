@@ -11,8 +11,12 @@
 
 #import "NSUrlLocationValidator.h"
 
+#import "JHttpError.h"
+#import "JHttpFlagChecker.h"
+
 //#define SHOW_DEBUG_LOGS
 #import <JFFLibrary/JDebugLog.h>
+
 
 @interface JFFURLConnection ()
 
@@ -288,7 +292,7 @@ static void readStreamCallback( CFReadStreamRef stream_
     [ self acceptCookiesForHeaders: allHeadersDict_ ];
 
     //JTODO test redirects (cyclic for example)
-    if ( 302 == statusCode_ )
+    if ( [ JHttpFlagChecker isRedirectFlag: statusCode_ ] )
     {
         NSDebugLog( @"JConnection - creating URL..." );
         NSDebugLog( @"%@", self->_params.url );
@@ -311,7 +315,7 @@ static void readStreamCallback( CFReadStreamRef stream_
     else
     {
         self->_responseHandled = YES;
-
+      
         if ( self.didReceiveResponseBlock )
         {
             JFFURLResponse* urlResponse_ = [ JFFURLResponse new ];

@@ -147,6 +147,22 @@
 		65F47AD01539A3BE00D8C865 /* NSURL+XQueryComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F47ACE1539A3BE00D8C865 /* NSURL+XQueryComponents.m */; };
 		65F47AD31539A3FF00D8C865 /* NSDictionary+XQueryComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F47AD11539A3FE00D8C865 /* NSDictionary+XQueryComponents.h */; };
 		65F47AD41539A3FF00D8C865 /* NSDictionary+XQueryComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F47AD21539A3FF00D8C865 /* NSDictionary+XQueryComponents.m */; };
+		7E54F3BC15FA25C6006F386A /* JHttpFlagChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E54F3BA15FA25C6006F386A /* JHttpFlagChecker.h */; };
+		7E54F3BD15FA25C6006F386A /* JHttpFlagChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E54F3BA15FA25C6006F386A /* JHttpFlagChecker.h */; };
+		7E54F3BE15FA25C6006F386A /* JHttpFlagChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E54F3BA15FA25C6006F386A /* JHttpFlagChecker.h */; };
+		7E54F3BF15FA25C6006F386A /* JHttpFlagChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E54F3BA15FA25C6006F386A /* JHttpFlagChecker.h */; };
+		7E54F3C015FA25C6006F386A /* JHttpFlagChecker.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7E54F3BB15FA25C6006F386A /* JHttpFlagChecker.mm */; };
+		7E54F3C115FA25C6006F386A /* JHttpFlagChecker.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7E54F3BB15FA25C6006F386A /* JHttpFlagChecker.mm */; };
+		7E54F3C215FA25C6006F386A /* JHttpFlagChecker.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7E54F3BB15FA25C6006F386A /* JHttpFlagChecker.mm */; };
+		7E54F3C315FA25C6006F386A /* JHttpFlagChecker.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7E54F3BB15FA25C6006F386A /* JHttpFlagChecker.mm */; };
+		7E54F3C915FA298E006F386A /* JHttpError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E54F3C715FA298E006F386A /* JHttpError.h */; };
+		7E54F3CA15FA298E006F386A /* JHttpError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E54F3C715FA298E006F386A /* JHttpError.h */; };
+		7E54F3CB15FA298E006F386A /* JHttpError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E54F3C715FA298E006F386A /* JHttpError.h */; };
+		7E54F3CC15FA298E006F386A /* JHttpError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E54F3C715FA298E006F386A /* JHttpError.h */; };
+		7E54F3CD15FA298E006F386A /* JHttpError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E54F3C815FA298E006F386A /* JHttpError.m */; };
+		7E54F3CE15FA298E006F386A /* JHttpError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E54F3C815FA298E006F386A /* JHttpError.m */; };
+		7E54F3CF15FA298E006F386A /* JHttpError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E54F3C815FA298E006F386A /* JHttpError.m */; };
+		7E54F3D015FA298E006F386A /* JHttpError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E54F3C815FA298E006F386A /* JHttpError.m */; };
 		7E6AF966157DF98900CA8ED4 /* NSUrlLocationValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6AF964157DF98900CA8ED4 /* NSUrlLocationValidator.h */; };
 		7E6AF967157DF98900CA8ED4 /* NSUrlLocationValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6AF964157DF98900CA8ED4 /* NSUrlLocationValidator.h */; };
 		7E6AF968157DF98900CA8ED4 /* NSUrlLocationValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6AF964157DF98900CA8ED4 /* NSUrlLocationValidator.h */; };
@@ -291,6 +307,10 @@
 		65F47ACE1539A3BE00D8C865 /* NSURL+XQueryComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+XQueryComponents.m"; sourceTree = "<group>"; };
 		65F47AD11539A3FE00D8C865 /* NSDictionary+XQueryComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XQueryComponents.h"; sourceTree = "<group>"; };
 		65F47AD21539A3FF00D8C865 /* NSDictionary+XQueryComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XQueryComponents.m"; sourceTree = "<group>"; };
+		7E54F3BA15FA25C6006F386A /* JHttpFlagChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHttpFlagChecker.h; sourceTree = "<group>"; };
+		7E54F3BB15FA25C6006F386A /* JHttpFlagChecker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JHttpFlagChecker.mm; sourceTree = "<group>"; };
+		7E54F3C715FA298E006F386A /* JHttpError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHttpError.h; sourceTree = "<group>"; };
+		7E54F3C815FA298E006F386A /* JHttpError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHttpError.m; sourceTree = "<group>"; };
 		7E6AF964157DF98900CA8ED4 /* NSUrlLocationValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUrlLocationValidator.h; sourceTree = "<group>"; };
 		7E6AF965157DF98900CA8ED4 /* NSUrlLocationValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSUrlLocationValidator.m; sourceTree = "<group>"; };
 		7E894BBB158239BD00557C36 /* DDUrlBuilder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DDUrlBuilder.xcodeproj; path = "../../../davedelong-Demos/DDURLBuilder/DDUrlBuilder/DDUrlBuilder.xcodeproj"; sourceTree = "<group>"; };
@@ -572,6 +592,10 @@
 				5310B9EF141F489200A3E2B1 /* JNConstants.h */,
 				534BEED414448698005D745F /* JNUrlConnectionCallbacks.h */,
 				8D5AE6F413F3E8AF00EB6143 /* JFFNetwork.h */,
+				7E54F3BA15FA25C6006F386A /* JHttpFlagChecker.h */,
+				7E54F3BB15FA25C6006F386A /* JHttpFlagChecker.mm */,
+				7E54F3C715FA298E006F386A /* JHttpError.h */,
+				7E54F3C815FA298E006F386A /* JHttpError.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -638,6 +662,8 @@
 				539103B114A88BCA007315A3 /* JNConnectionsFactory.h in Headers */,
 				539103B314A88BCA007315A3 /* NSURL+Cookies.h in Headers */,
 				7E6AF968157DF98900CA8ED4 /* NSUrlLocationValidator.h in Headers */,
+				7E54F3BE15FA25C6006F386A /* JHttpFlagChecker.h in Headers */,
+				7E54F3CB15FA298E006F386A /* JHttpError.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,6 +699,8 @@
 				65802B61148BFC930040A93A /* JNConnectionsFactory.h in Headers */,
 				65802B63148BFCB20040A93A /* JNUrlResponse.h in Headers */,
 				7E6AF967157DF98900CA8ED4 /* NSUrlLocationValidator.h in Headers */,
+				7E54F3BD15FA25C6006F386A /* JHttpFlagChecker.h in Headers */,
+				7E54F3CA15FA298E006F386A /* JHttpError.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,6 +731,8 @@
 				7E8F20AF14F949DD00588C7D /* JNUrlConnectionCallbacks.h in Headers */,
 				7E8F20B014F949DD00588C7D /* JFFNetwork.h in Headers */,
 				7E6AF969157DF98900CA8ED4 /* NSUrlLocationValidator.h in Headers */,
+				7E54F3BF15FA25C6006F386A /* JHttpFlagChecker.h in Headers */,
+				7E54F3CC15FA298E006F386A /* JHttpError.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -748,6 +778,8 @@
 				1B166C981546E65C00475B6A /* NSString+RFC_2965.h in Headers */,
 				1BE052FF1547DF5600270B58 /* NSHTTPCookie+matchesURL.h in Headers */,
 				7E6AF966157DF98900CA8ED4 /* NSUrlLocationValidator.h in Headers */,
+				7E54F3BC15FA25C6006F386A /* JHttpFlagChecker.h in Headers */,
+				7E54F3C915FA298E006F386A /* JHttpError.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -957,6 +989,8 @@
 				5391039014A88BCA007315A3 /* JNConnectionsFactory.m in Sources */,
 				5391039214A88BCA007315A3 /* NSURL+Cookies.m in Sources */,
 				7E6AF96C157DF98900CA8ED4 /* NSUrlLocationValidator.m in Sources */,
+				7E54F3C215FA25C6006F386A /* JHttpFlagChecker.mm in Sources */,
+				7E54F3CF15FA298E006F386A /* JHttpError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -983,6 +1017,8 @@
 				65802B60148BFC8F0040A93A /* JNGzipErrorsLogger.m in Sources */,
 				65802B62148BFC930040A93A /* JNConnectionsFactory.m in Sources */,
 				7E6AF96B157DF98900CA8ED4 /* NSUrlLocationValidator.m in Sources */,
+				7E54F3C115FA25C6006F386A /* JHttpFlagChecker.mm in Sources */,
+				7E54F3CE15FA298E006F386A /* JHttpError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1009,6 +1045,8 @@
 				7E8F207A14F949A000588C7D /* JFFNetworkBlocksFunctions.m in Sources */,
 				7E8F207C14F949A000588C7D /* JFFUrlResponseLogger.m in Sources */,
 				7E6AF96D157DF98900CA8ED4 /* NSUrlLocationValidator.m in Sources */,
+				7E54F3C315FA25C6006F386A /* JHttpFlagChecker.mm in Sources */,
+				7E54F3D015FA298E006F386A /* JHttpError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1045,6 +1083,8 @@
 				1B166C991546E65C00475B6A /* NSString+RFC_2965.m in Sources */,
 				1BE053001547DF5600270B58 /* NSHTTPCookie+matchesURL.m in Sources */,
 				7E6AF96A157DF98900CA8ED4 /* NSUrlLocationValidator.m in Sources */,
+				7E54F3C015FA25C6006F386A /* JHttpFlagChecker.mm in Sources */,
+				7E54F3CD15FA298E006F386A /* JHttpError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1179,6 +1219,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1204,6 +1245,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
