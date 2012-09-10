@@ -17,9 +17,7 @@
         JNConnectionsFactory* factory_ =
         [ [ JNConnectionsFactory alloc ] initWithURLConnectionParams: self.params ];
 
-        self.connection = self.params.useLiveConnection
-            ? [ factory_ createFastConnection     ]
-            : [ factory_ createStandardConnection ];
+        self.connection = [ factory_ createConnection ];
     }
 
     self.connection.shouldAcceptCertificateBlock = self.params.certificateCallback;
