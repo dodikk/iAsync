@@ -304,9 +304,15 @@ static void readStreamCallback( CFReadStreamRef stream_
         }
 
         DDURLBuilder* urlBuilder_ = [ DDURLBuilder URLBuilderWithURL: self->_params.url ];
+        urlBuilder_.shouldSkipPathPercentEncoding = YES;
         urlBuilder_.path = location_;
         
         self->_params.url = [ urlBuilder_ URL ];
+        
+        // To avoid HTTP 500 for dashboard login
+        self->_params.httpMethod = @"GET";
+        self->_params.httpBody = nil;
+        
         NSDebugLog( @"%@", self->_params.url );
         NSDebugLog( @"Done." );
 
