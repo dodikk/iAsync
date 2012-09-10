@@ -24,7 +24,7 @@
 
     self.connection.shouldAcceptCertificateBlock = self.params.certificateCallback;
 
-    __unsafe_unretained JFFAsyncOperationNetwork* self_ = self;
+    __weak JFFAsyncOperationNetwork* self_ = self;
 
     progress_ = [ progress_ copy ];
     self.connection.didReceiveDataBlock = ^( NSData* data_ )
@@ -43,7 +43,6 @@
     finish_ = [ finish_ copy ];
     self.connection.didFinishLoadingBlock = finish_;
 
-    __weak JFFAsyncOperationNetwork* weakSelf_ = self;
     
     self.connection.didReceiveResponseBlock = ^void( id< JNUrlResponse > response_ )
     {
@@ -56,7 +55,7 @@
             JHttpError* httpError_ = [ [ JHttpError alloc ] initWithHttpCode: statusCode_ ];
             finish_( httpError_ );
 
-            [ weakSelf_.connection cancel ];
+            [ self_ forceCancel ];
         }
     };
 
