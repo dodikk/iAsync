@@ -31,7 +31,23 @@
 		53A33F4A141F9AA000469DAA /* 1-Incomplete.zip in Resources */ = {isa = PBXBuildFile; fileRef = 53A33F49141F9A9F00469DAA /* 1-Incomplete.zip */; };
 		7E25B2F2158608C200469187 /* libDDUrlBuilder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E25B2ED158608AC00469187 /* libDDUrlBuilder.a */; };
 		7E6AF9A0157E105600CA8ED4 /* BadHeadersMockNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AF99F157E105600CA8ED4 /* BadHeadersMockNetwork.m */; };
-		7EDF584F15FF2B12006D6164 /* NSConnectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 532284321445C65C00F0E723 /* NSConnectionTest.m */; };
+		7E964B9F15FF3D9F00F5AD54 /* ConnectionsFactoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 539A55A51445BC3800FC2770 /* ConnectionsFactoryTest.m */; };
+		7E964BA015FF3D9F00F5AD54 /* EncodingsFactoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A33F3D141F809E00469DAA /* EncodingsFactoryTest.m */; };
+		7E964BA115FF3D9F00F5AD54 /* GzipDecoderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5310BB22141F538400A3E2B1 /* GzipDecoderTest.m */; };
+		7E964BA215FF3D9F00F5AD54 /* GzipErrorsLoggerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A33F40141F80B400469DAA /* GzipErrorsLoggerTest.m */; };
+		7E964BA315FF3D9F00F5AD54 /* JFFConectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 532284351445CDE000F0E723 /* JFFConectionTest.m */; };
+		7E964BA415FF3D9F00F5AD54 /* JNLiveLoaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 531ABC5E144C96AC007269BB /* JNLiveLoaderTest.m */; };
+		7E964BA515FF3D9F00F5AD54 /* JnNsLoaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 531ABC61144C9893007269BB /* JnNsLoaderTest.m */; };
+		7E964BA615FF3D9F00F5AD54 /* NSConnectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 532284321445C65C00F0E723 /* NSConnectionTest.m */; };
+		7E964BA715FF3D9F00F5AD54 /* JFFURLConnectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C1D70A1539BE950092F5E6 /* JFFURLConnectionTest.m */; };
+		7E964BA815FF3D9F00F5AD54 /* StubDecoderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A33F3A141F806A00469DAA /* StubDecoderTest.m */; };
+		7E964BA915FF3D9F00F5AD54 /* ZipDecoderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A33F31141F6AC400469DAA /* ZipDecoderTest.m */; };
+		7E964BAA15FF3D9F00F5AD54 /* StringFromQueryComponentsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F47AC41539A33500D8C865 /* StringFromQueryComponentsTest.m */; };
+		7E964BAB15FF3D9F00F5AD54 /* NSStringRFC_2965Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B166C9B1546ED9200475B6A /* NSStringRFC_2965Test.m */; };
+		7E964BAC15FF3D9F00F5AD54 /* NSHTTPCookieMatchesURLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE053031547DFDE00270B58 /* NSHTTPCookieMatchesURLTest.m */; };
+		7E964BAD15FF3D9F00F5AD54 /* JFFLocalCookiesStorageTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0530C1547EA0400270B58 /* JFFLocalCookiesStorageTest.m */; };
+		7E964BAE15FF3D9F00F5AD54 /* UrlPathValidatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AF998157E038F00CA8ED4 /* UrlPathValidatorTest.m */; };
+		7E964BAF15FF3D9F00F5AD54 /* InvalidPathForJConnectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AF99B157E0BF100CA8ED4 /* InvalidPathForJConnectionTest.m */; };
 		7EDF586115FF3574006D6164 /* JFFNetworkTestData.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5310BB46141F574300A3E2B1 /* JFFNetworkTestData.bundle */; };
 		7EDF586315FF3574006D6164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		7EDF586415FF3574006D6164 /* JNTestBundleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A33F22141F600300469DAA /* JNTestBundleManager.m */; };
@@ -905,7 +921,23 @@
 				53A33F23141F600300469DAA /* JNTestBundleManager.m in Sources */,
 				1BE053111547EA5C00270B58 /* NSHTTPCookie+HTTPCookieWithHeader.m in Sources */,
 				7E6AF9A0157E105600CA8ED4 /* BadHeadersMockNetwork.m in Sources */,
-				7EDF584F15FF2B12006D6164 /* NSConnectionTest.m in Sources */,
+				7E964B9F15FF3D9F00F5AD54 /* ConnectionsFactoryTest.m in Sources */,
+				7E964BA015FF3D9F00F5AD54 /* EncodingsFactoryTest.m in Sources */,
+				7E964BA115FF3D9F00F5AD54 /* GzipDecoderTest.m in Sources */,
+				7E964BA215FF3D9F00F5AD54 /* GzipErrorsLoggerTest.m in Sources */,
+				7E964BA315FF3D9F00F5AD54 /* JFFConectionTest.m in Sources */,
+				7E964BA415FF3D9F00F5AD54 /* JNLiveLoaderTest.m in Sources */,
+				7E964BA515FF3D9F00F5AD54 /* JnNsLoaderTest.m in Sources */,
+				7E964BA615FF3D9F00F5AD54 /* NSConnectionTest.m in Sources */,
+				7E964BA715FF3D9F00F5AD54 /* JFFURLConnectionTest.m in Sources */,
+				7E964BA815FF3D9F00F5AD54 /* StubDecoderTest.m in Sources */,
+				7E964BA915FF3D9F00F5AD54 /* ZipDecoderTest.m in Sources */,
+				7E964BAA15FF3D9F00F5AD54 /* StringFromQueryComponentsTest.m in Sources */,
+				7E964BAB15FF3D9F00F5AD54 /* NSStringRFC_2965Test.m in Sources */,
+				7E964BAC15FF3D9F00F5AD54 /* NSHTTPCookieMatchesURLTest.m in Sources */,
+				7E964BAD15FF3D9F00F5AD54 /* JFFLocalCookiesStorageTest.m in Sources */,
+				7E964BAE15FF3D9F00F5AD54 /* UrlPathValidatorTest.m in Sources */,
+				7E964BAF15FF3D9F00F5AD54 /* InvalidPathForJConnectionTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

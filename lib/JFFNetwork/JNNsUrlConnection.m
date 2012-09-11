@@ -5,7 +5,7 @@
 
 #import "NSMutableURLRequest+CreateRequestWithURLParams.h"
 
-//#define NSURLConnectionDoesNotWorkWithLocalFiles
+#define NSURLConnectionDoesNotWorkWithLocalFiles
 
 
 @implementation JNNsUrlConnection
