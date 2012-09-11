@@ -5,13 +5,18 @@
 
 #import "NSMutableURLRequest+CreateRequestWithURLParams.h"
 
-#define NSURLConnectionDoesNotWorkWithLocalFiles
+//#define NSURLConnectionDoesNotWorkWithLocalFiles
 
 
 @implementation JNNsUrlConnection
 {
     NSURLConnection* _nativeConnection;
     JFFURLConnectionParams* _params;
+}
+
+-(void)dealloc
+{
+    [ self cancel ];
 }
 
 -(id)initWithURLConnectionParams:( JFFURLConnectionParams* )params_
@@ -86,7 +91,8 @@
 -(void)cancel
 {
     [ self clearCallbacks ];
-    [ _nativeConnection cancel ];
+    [ self->_nativeConnection cancel ];
+    self->_nativeConnection = nil;
 }
 
 #pragma mark -
@@ -139,11 +145,13 @@ didReceiveResponse:( NSHTTPURLResponse* )response_
         return;
     }
 
-    if ( nil != self.didFinishLoadingBlock )
-    {
-        self.didFinishLoadingBlock( nil );
-    }
+    JFFDidFinishLoadingHandler finish_ = self.didFinishLoadingBlock;
+    
     [ self cancel ];
+    if ( nil != finish_ )
+    {
+        finish_( nil );
+    }
 }
 
 -(void)connection:( NSURLConnection* )connection_
